@@ -1,0 +1,12 @@
+[submodule "QLVR_ESP32"]
+	path = QLVR_ESP32
+	url = https://github.com/ngocrc3108/QLVR_ESP32.git
+[submodule "CICO_Server"]
+	path = CICO_Server
+	url = https://github.com/ngocrc3108/CICO_Server.git
+[submodule "QLVR_STM32"]
+	path = QLVR_STM32
+	url = https://github.com/ngocrc3108/QLVR_STM32.git
+[submodule "NotificationListener"]
+	path = NotificationListener
+	url = https://github.com/ngocrc3108/NotificationListener.git
