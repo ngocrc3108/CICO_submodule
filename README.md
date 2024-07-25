@@ -20,8 +20,8 @@ Hệ thống gửi xe tự động sử dụng vi điều khiển STM32 và RFID
 ## ESP32
 - Sử dụng framework arduino.
 - Có chức năng chính là chuyển tiếp các request từ stm32 lên server bằng giao thức http get (sử dụng thư viện HTTPClient).
-- Có giao diện để kết nối wifi (sử dụng thư viện WiFiManager).
-![idk2](/images/Wifi2.jfif)
+- Có giao diện để kết nối wifi (sử dụng thư viện WiFiManager).\
+ ![idk2](/images/Wifi2.jfif)
 ## Server
 - Expressjs là một framework được xây dựng trên nền tảng của Nodejs. Nó cung cấp các tính năng mạnh mẽ để phát triển web hoặc mobile. Expressjs hỗ trợ các method HTTP và midleware tạo ra API vô cùng mạnh mẽ và dễ sử dụng.
 - Pug là một template engine hiệu suất cao, mạnh mẽ, dễ hiểu và giàu các tính năng. Pug giúp giảm thời gian phát triển bằng cách cung cấp các tính năng không có sẵn trong HTML thuần tuý giúp hoàn thành nhanh hơn các công việc lặp đi lặp lại.
@@ -33,5 +33,5 @@ Hệ thống gửi xe tự động sử dụng vi điều khiển STM32 và RFID
 - Sử dụng NotificationListenerService được hỗ trợ sẵn trên android để đọc thông báo từ ngân hàng.
 - Khi đọc được thông báo, dựa vào 4 kí tự đầu của mã giao dịch (CICO) để lọc ra mã giao dịch.
 - Gửi mã giao dịch và số tiền lên server bằng http get.
-- Có giao diện hiển thị mã giao dịch đã đọc được và số tiền của giao dịch đó.
-![](images/doc_thong_bao.jpg)
+- Có giao diện hiển thị mã giao dịch đã đọc được và số tiền của giao dịch đó.\
+ ![](images/doc_thong_bao.jpg)
